@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 10px;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+  width: 150px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.menu{
+  position: absolute;
+  top: 0px;
+  background-color: palevioletred;
+  height: 60px;
+  width: 100%;
+  left: 0;
+}
+
+.info-section{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  background-color: lightsalmon;
+}
+
+.btn{
+  width: 200px;
+  position: absolute;
+  left: 10px;
+}
+
+.btn1{
+  width: 200px;
+  position: absolute;
+  right: 10px;
+}
+
+.btn:hover{
+  background-color: #4CAF50;
+}
+
+
+/* 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+} */
